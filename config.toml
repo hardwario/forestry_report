@@ -1,4 +1,4 @@
-baseURL = "https://vyrobni.report"
+baseURL = "https://lesnicky.report"
 homeURL = "/"
 DefaultContentLanguage = "cs"
 pygmentsUseClassic = false
@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 [params]
   menuNames = ["main","footer","services"]
   homeURL = "/"
-  productionURL = "https://vyrobni.report"
+  productionURL = "https://lesnicky.report"
 
 [languages]
   #[languages.en]
