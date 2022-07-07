@@ -1,0 +1,194 @@
+[lear_more]
+other = "Learn more"
+
+[areas]
+other = "Areas of monitoring"
+
+[area1]
+other = "Weather<br/> conditions"
+
+[area1_desc]
+other = "Monitor temperature, humidity, wind strength and direction, and precipitation."
+
+[area2]
+other = "Fire<br/> prevention"
+
+[area2_desc]
+other = "Monitoring air temperature and humidity and soil moisture for forest fire prevention."
+
+[area3]
+other = "Bark beetle occurrence"
+
+[area3_desc]
+other = "Accurate weighing of leafcutters in traps."
+
+[area4]
+other = "Tree and soil monitoring"
+
+[area4_desc]
+other = "Continuous monitoring of tree tilt and shake by accelerometer and tree volume by dendrometer. Soil moisture and temperature monitoring."
+
+[area5]
+other = "Machines monitoring"
+
+[area5_desc]
+other = "Monitoring the location, position and performance of forest machines."
+
+[benefit1]
+other = "30 days to test"
+
+[benefit1_desc]
+other = "Together we will verify the functionality and benefits of the system on one of your devices. The test is free for 30 days and&nbsp;requires no obligation."
+
+[benefit2]
+other = "Non-invasive method"
+
+[benefit2_desc]
+other = "We get the data and send it over a secure independent wireless network without invasive forest intervention and electricity supply."
+
+[benefit3]
+other = "Fast return"
+
+[benefit3_desc]
+other = "Gradual implementation without changing your processes and tools with immediate return on your&nbsp;investment."
+
+[start_together]
+other = "Let's start monitoring your forest together"
+
+[used_by]
+other = "Already using forestry.report"
+
+[prices]
+other = "Pricing"
+
+[prices_desc]
+other = "The price of the service starts at 19 EUR per month and depends on the contract length and the sensors used."
+
+[36]
+other = "36 months commitment"
+
+[36_price]
+other = "from 19 EUR / month"
+
+[24]
+other = "24 months commitment"
+
+[24_price]
+other = "from 27 EUR / month"
+
+[12]
+other = "12 months commitment"
+
+[12_price]
+other = "from 39 EUR / month"
+
+[reporting_pbi]
+other = "Data reporting via Power BI"
+
+[rest_api]
+other = "Access to REST API and Callbacks for custom integration"
+
+[replacement]
+other = "Free replacement on failure within 48 hours"
+
+[insurance]
+other = "Theft and destruction insurance"
+
+[popupar]
+other = "Popular"
+
+[save_50]
+other = "Save 50%"
+
+[save_30]
+other = "Save 30%"
+
+[from]
+other = "from"
+
+[partners]
+other = "Partners of forestry.report"
+
+[ceo]
+other = "CEO and co-founder"
+
+[let_contact]
+other = "Leave me a contact, I'll get back to you"
+
+[faq]
+other = "Your Frequently Asked Questionsy"
+
+[faq_1]
+other = "How does the lesnicky.report programme work?"
+
+[faq_1_desc]
+other = "After submitting the form, Alan will contact you to arrange a time to call together. The aim is to find out how we can monitor your forest and agree on a deployment procedure."
+
+[faq_2]
+other = "How do you transfer data from the forest? Is it safe?"
+
+[faq_2_desc]
+other = "We transmit data over the wireless NB-IoT network from Vodafone. It has excellent coverage, including inaccessible remote locations. The network is completely independent of your internal network and the transmission is secure."
+
+[faq_3]
+other = "Where will we see the data?"
+
+[faq_3_desc]
+other = "In the program forestry.report we work with outputs in Power BI from Microsoft. However, if you need to see the data elsewhere, we will find a way to do it. With the help of our partners, we also offer our own web applications."
+
+[faq_4]
+other = "Is it also possible to purchase a monitoring system or is it only available for rent?"
+
+[faq_4_desc]
+other = "Yes, you can also buy the device and sensors as a one-off purchase. Regular fees are only for internet connectivity and optionally for visualisation and reporting. We will discuss the details at the kick-off meeting."
+
+[back_home]
+other = "Back to homepage"
+
+[operated_by]
+other = "The forestry.report program is operated by"
+
+[vat_id] 
+other = "VAT ID"
+
+[company_id]
+other = "Company ID"
+
+[czechia]
+other = "Czechia"
+
+[recorded]
+other = "The company is registered with the Regional Court in Ústí nad Labem under registration number C 37399"
+
+[process1]
+other = "1. Face-to-face meeting"
+
+[process1_desc]
+other = "Fill out the form below, and we will contact you to arrange an online meeting. We will discuss the areas and variables you want to monitor. If necessary, we will arrange a face-to-face meeting."
+
+[process2]
+other = "2. Selection of monitoring area and sensors"
+
+[process2_desc]
+other = "Depending on the type of monitoring, we select the measurement method and the most suitable sensors. The most common monitoring methods are:<ul><li>Temperature and humidity sensor</li><li>Soil moisture and temperature sensor</li><li>Dendrometer for measuring tree trunk growth</li><li>Weather stations and rain gauges </li><li>Optical, capacitive and magnetic sensors </li><li>Connection to analogue and digital machine output</li></ul>"
+
+[process3]
+other = "3. Visualization and reporting method"
+
+[process3_desc]
+other = "We will not replace the tools and applications you are comfortable working with. We will find a way to transfer the measured data to them. If you don't use a suitable application yet, we can help you choose one. We usually use Microsoft Power BI.<br/><br/> <a class = 'font-weight-bold' href = 'http://www.bugreport.cz/testzlin' target='_blank'>Power BI Example</a>"
+
+[process4]
+other = "4. Sending the device and installation"
+
+[process4_desc]
+other = "We will send the device, including the sensors, to you. If you cannot handle the installation yourself, we will send someone from our company to do it."
+
+[process5]
+other = "5. Monitoring and evaluation"
+
+[process5_desc]
+other = "Your forest data will be instantly available on your computer and phone. It will be available for evaluating machine efficiency, monitoring local weather conditions or tree growth. Together we will look at the data and evaluate the benefits"
+
+[make_appointment]
+other = "Make an appointment"

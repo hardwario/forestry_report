@@ -9,11 +9,11 @@
       <div class="row">
         <div class="col-12 col-md-7 pt-120 mt-md-0 pt-md-60">
           <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-120 pt-md-20 pb-20">
-            Dostupný<br/> IoT monitoring<br/> vašeho lesa
+            {{ .Params.heading | safeHTML }}
           </h1>        
-          <p class = "font-20 font-lnh28 pb-20">Snadno a bezpečně.</p>
+          <p class = "font-20 font-lnh28 pb-20">{{ .Params.subheading | safeHTML }}</p>
           <div>
-            <a href="#benefits" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-green">Zjistit více</a>
+            <a href="#benefits" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-green">{{ i18n "learn_more" }}</a>
         </div>
         </div>
       </div>
@@ -26,33 +26,33 @@
   <div class = "container pb-70" id = "areas">
       <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-5 mx-auto text-center">
-            <div class="font-grayLined font-gray2 mb-40 font-font2 font-weight-bold font-15"><span>Oblasti monitoringu</span></div>
+            <div class="font-grayLined font-gray2 mb-40 font-font2 font-weight-bold font-15"><span>{{ i18n "areas" | safeHTML }}</span></div>
         </div>
       </div>
       <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
           <ul class="row justify-content-center list-unstyled text-center carousel-indicators mx-0">
-              <li data-target="#carousel" data-slide-to="0" class="active col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/weather.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Počasí</h3></li>
-              <li data-target="#carousel" data-slide-to="1" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/temperature.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Vlhkost a teplota vzduchu a půdy</h3></li>
-              <li data-target="#carousel" data-slide-to="2" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/bugs.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Výskyt kůrovce</h3></li>
-              <li data-target="#carousel" data-slide-to="3" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/tree.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Sledovaní stromů</h3></li>
-              <li data-target="#carousel" data-slide-to="4" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/machines.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">Poloha a výkon strojů</h3></li>
+              <li data-target="#carousel" data-slide-to="0" class="active col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/weather.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "area1" | safeHTML }}</h3></li>
+              <li data-target="#carousel" data-slide-to="1" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/temperature.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "area2" | safeHTML }}</h3></li>
+              <li data-target="#carousel" data-slide-to="2" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/bugs.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "area3" | safeHTML }}</h3></li>
+              <li data-target="#carousel" data-slide-to="3" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/tree.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "area4" | safeHTML }}</h3></li>
+              <li data-target="#carousel" data-slide-to="4" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/machines.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "area5" | safeHTML }}</h3></li>
           </ul>
           <div class = "row justify-content-center">
           <div class="col-10 carousel-inner bg-white shadow mt-20 px-20 pt-40 pb-30 text-center">
               <div class="carousel-item active">
-                <p class = "font-18 font-lnh26">Sledování teploty, vlhkosti, síly a směru větru a srážek.</p>
+                <p class = "font-18 font-lnh26">{{ i18n "area1_desc" | safeHTML }}</p>
               </div>
               <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">Sledování teploty a vlhkosti půdy s predikcí lesních požárů.</p>
+                  <p class = "font-18 font-lnh26">{{ i18n "area2_desc" | safeHTML }}</p>
               </div>
               <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">Přesné vážení lýkožroutů v lapačích.</p>
+                  <p class = "font-18 font-lnh26">{{ i18n "area3_desc" | safeHTML }}</p>
               </div>
               <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">Kontinuální monitoring náklonu a otřesu stromů akcelerometrem a objemu stromů dendrometrem.</p>
+                  <p class = "font-18 font-lnh26">{{ i18n "area4_desc" | safeHTML }}</p>
               </div>
               <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">Sledování polohy, pozice a výkonu lesních strojů.</p>
+                  <p class = "font-18 font-lnh26">{{ i18n "area5_desc" | safeHTML }}</p>
               </div>
             </div>
           </div>
@@ -79,16 +79,16 @@
       <div class="row">
          
           <div class = "col-12 col-md-4 pb-30 pb-md-0">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">30 dní na vyzkoušení</h3>
-            <p>Společně ověříme funkčnost a přínosy systému na jednom místě. Test je na 30 dní zdarma a&nbsp;bez závazku.</p>
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "benefit1" | safeHTML }}</h3>
+            <p>{{ i18n "benefit1_desc" | safeHTML }}</p>
           </div>
           <div class = "col-12 col-md-4 pb-30 pb-md-0">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">Neinvazivní metoda</h3>
-            <p>Data získáme bez invazivního zásahu do lesa, přívodu elektřiny a pošleme je bezpečnou nezávislou bezdrátovou sítí.</p>
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "benefit2" | safeHTML }}</h3>
+            <p>{{ i18n "benefit2_desc" | safeHTML }}</p>
           </div>
-          <div class = "col-12 col-md-4">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">Rychlá návratnost</h3>
-            <p>Postupná implementace bez nutnosti změny vašich procesů a nástrojů s okamžitou návratností vaší&nbsp;investice.</p>
+          <div class = "col-12 col-md-4 pb-30 pb-md-0">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "benefit3" | safeHTML }}</h3>
+            <p>{{ i18n "benefit3_desc" | safeHTML }}</p>
           </div>
         </div>
     </div>
@@ -100,7 +100,7 @@
       <div class="container py-30">
         <div class="row">
           <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-              <h2 class="text-center pb-20 font-weight-black pt-60 font-38 font-md-56">Začněme společně monitorovat váš les</h2>
+              <h2 class="text-center pb-20 font-weight-black pt-60 font-38 font-md-56">{{ i18n "start_together" | safeHTML }}</h2>
           </div>
       </div>
           <div class="row">
@@ -111,53 +111,42 @@
                 
                   <div class="collapsor pt-10" id = "process">
                     <div class="collapsor__item" img-url = "/_assets/images/process-1.jpg">
-                      <h3 class="collapsor__header collapsor__header--active">1. Osobní schůzka</h3>
+                      <h3 class="collapsor__header collapsor__header--active">{{ i18n "process1" | safeHTML }}</h3>
                       <div class="collapsor__body collapsor__body--active">
-                        Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Probereme oblasti a veličiny, která chcete monitorovat. V případě potřeby se domluvíme na osobním setkání.
+                        {{ i18n "process1_desc" | safeHTML }}
                       </div>
                   </div>
                   
                   <div class="collapsor__item" img-url = "/_assets/images/process-2.jpg">
-                      <h3 class="collapsor__header">2. Výběr způsobu měření a senzorů</h3>
+                      <h3 class="collapsor__header">{{ i18n "process2" | safeHTML }}</h3>
                       <div class="collapsor__body">
-                        Podle typu monitoringu zvolíme způsob měření a nejvhodnější senzory. Nejčastěji využíváme tyto metody monitoringu:
-                          <ul>
-                            <li>Senzor teploty a vlhkosti vzduchu</li>
-                            <li>Senzor teploty a vlhkosti půdy</li>
-                            <li>Dendrometr pro měření růstu kmene stromů</li>
-                            <li>Meteostanice a srážkoměry</li>
-                            <li>Optický, kapacitní a magnetické senzory</li>
-                            <li>Napojení na analogový a digitální výstup stroje</li>
-                          </ul> 
+                        {{ i18n "process2_desc" | safeHTML }}
+                        
                       </div>
                   </div>
 
                   <div class="collapsor__item" img-url = "/_assets/images/process-3.png">
-                    <h3 class="collapsor__header">3. Způsob vizualizace a reporting</h3>
+                    <h3 class="collapsor__header">{{ i18n "process3" | safeHTML }}</h3>
                     <div class="collapsor__body">
-                      Nebudeme nahrazovat nástroje a aplikace, se kterými se vám dobře pracuje. Najdeme způsob, jak do nich naměřená data přenést. 
-                      Pokud doposud žádnou vhodnou aplikaci nepoužíváte, poradíme vám s výběrem. Většinou používáme Power BI nebo Ubidots.
-                      <br/><br/>
-                      <a class = "font-weight-bold" href = "http://www.bugreport.cz/testzlin" target="_blank">Příklad výstupu v Microsoft Power BI</a>
-                      
+                      {{ i18n "process3_desc" | safeHTML }}
                     </div>
                 </div>
 
                   <div class="collapsor__item" img-url = "/_assets/images/process-4.jpg">
-                    <h3 class="collapsor__header">4. Odeslání zařízení a instalace</h3>
+                    <h3 class="collapsor__header">{{ i18n "process4" | safeHTML }}</h3>
                     <div class="collapsor__body">
-                        Zařízení včetně senzorů zašleme k vám. Pokud si neporadíte s instalací svépomocí, vyšleme k vám někoho od nás.
+                      {{ i18n "process4_desc" | safeHTML }}
                     </div>
                 </div>
-                  
-                <div class="collapsor__item" img-url = "/_assets/images/process-5.jpg">
-                  <h3 class="collapsor__header">5. Sledování a vyhodnocení</h3>
+
+                <div class="collapsor__item" img-url = "/_assets/images/process-4.jpg">
+                  <h3 class="collapsor__header">{{ i18n "process5" | safeHTML }}</h3>
                   <div class="collapsor__body">
-                      Data z vašeho lesa budete mít okamžitě ve svém počítači i telefonu. Budou k dispozici pro vyhodnocení efektivity strojů, sledování lokálních povětrnostních podmínek nebo růstu stromů. Společně se na data podíváme a vyhodnotíme přínosy.
+                    {{ i18n "process5_desc" | safeHTML }}
                   </div>
               </div>
 
-              <a href="#meeting" class="smooth cta-button font-lnh54 mt-30 ml-30 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-green">Domluvit schůzku</a>
+              <a href="#meeting" class="smooth cta-button font-lnh54 mt-30 ml-30 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-green">{{ i18n "make_appointment" | safeHTML }}</a>
                   </div>
               </div>
           </div>
@@ -179,7 +168,7 @@
       <div class="row align-items-center pb-10">
           
          <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
-              <div class="font-grayLined font-gray2 mb-30 font-font2 font-weight-bold font-15"><span>Program lesnicky.report již využívají</span></div>
+              <div class="font-grayLined font-gray2 mb-30 font-font2 font-weight-bold font-15"><span>{{ i18n "used_by" | safeHTML }}</span></div>
          </div>
           <div class="col-12 text-center">
             <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Program vyrobni.report již využívají</h2>
@@ -214,8 +203,8 @@
               <div class="col">
                 <div class="row">
                     <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                        <h2 class="text-center pb-20 font-weight-black pt-60 font-38 font-md-56">Ceny</h2>
-                        <p class="text-center font-24 font-lnh38">Cena služby startuje na 490 Kč měsíčně a je závislá na délce úvazku a&nbsp;použitých senzorech.</p>
+                        <h2 class="text-center pb-20 font-weight-black pt-60 font-38 font-md-56">{{ i18n "prices" | safeHTML }}</h2>
+                        <p class="text-center font-24 font-lnh38">{{ i18n "prices_desc" | safeHTML }}</p>
                     </div>
                 </div>
                   <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40 mb-40">
@@ -223,7 +212,7 @@
                         <div class="col-12 col-md-4">
                           <div class="pricelist__item">
                             <div class="pricelist__content">
-                              <h3 class="pricelist__title">Závazek 36 měsíců</h3>
+                              <h3 class="pricelist__title">{{ i18n "36" | safeHTML }}</h3>
                         <!--
                               <div class="product__images d-flex align-items-center justify-content-center">
                                   <img src="/kits-images/" alt="" />
@@ -233,13 +222,13 @@
                               <div class="pricelist__title2">Text</div>
                             -->
                               <ul class="pricelist__items">
-                                <li class="pricelist__items__item">Reporting dat přes Power BI nebo Ubidots</li>
-                                <li class="pricelist__items__item">Přístup k REST API a Callbackům pro vlastní integraci</li>
-                                <li class="pricelist__items__item">Bezplatná výměna při poruše do 48 hodin</li>
-                                <li class="pricelist__items__item">Pojištění proti krádeži a zničení</li>
+                                <li class="pricelist__items__item">{{ i18n "reporting_pbi" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "rest_api" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "replacement" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "insurance" | safeHTML }}</li>
                               </ul>
-                                <div class="pricelist__discount pt-30">Ušetříte 50 %</div>
-                              <div class="pricelist__price">od 490 CZK / měsíc</div>
+                                <div class="pricelist__discount pt-30">{{ i18n "save_50" | safeHTML }}</div>
+                              <div class="pricelist__price">{{ i18n "36_price" | safeHTML }}</div>
                                <!--<div class="pricelist__button">
                                 <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
                               </div>-->
@@ -251,8 +240,8 @@
                         <div class="col-12 col-md-4">
                           <div class="pricelist__item pricelist__item--rec">
                             <div class="pricelist__content">
-                              <div class="pricelist__rec">Populární</div>
-                              <h3 class="pricelist__title">Závazek 24 měsíců</h3>
+                              <div class="pricelist__rec">{{ i18n "popular" | safeHTML }}</div>
+                              <h3 class="pricelist__title">{{ i18n "24" | safeHTML }}</h3>
                         <!--
                               <div class="product__images d-flex align-items-center justify-content-center">
                                   <img src="/kits-images/" alt="" />
@@ -261,13 +250,13 @@
                         
                               <div class="pricelist__title2">Text</div>-->
                               <ul class="pricelist__items">
-                                <li class="pricelist__items__item">Reporting dat přes Power BI nebo Ubidots</li>
-                                <li class="pricelist__items__item">Přístup k REST API a Callbackům pro vlastní integraci</li>
-                                <li class="pricelist__items__item">Bezplatná výměna při poruše do 48 hodin</li>
-                                <li class="pricelist__items__item">Pojištění proti krádeži a zničení</li>
+                                <li class="pricelist__items__item">{{ i18n "reporting_pbi" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "rest_api" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "replacement" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "insurance" | safeHTML }}</li>
                               </ul>
-                                <div class="pricelist__discount pt-30">Ušetříte 30 %</div>
-                              <div class="pricelist__price">od 690 CZK / měsíc</div>
+                                <div class="pricelist__discount pt-30">{{ i18n "save_30" | safeHTML }}</div>
+                              <div class="pricelist__price">{{ i18n "24_price" | safeHTML }}</div>
                                <!--<div class="pricelist__button">
                                 <a href="#" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-30 d-inline-block font-weight-bold font-font2 font-white bg-red">Toto</a>
                               </div>-->
@@ -279,7 +268,7 @@
                         <div class="col-12 col-md-4">
                           <div class="pricelist__item">
                             <div class="pricelist__content">
-                              <h3 class="pricelist__title">Závazek 12 měsíců</h3>
+                              <h3 class="pricelist__title">{{ i18n "12" | safeHTML }}</h3>
                         <!--
                               <div class="product__images d-flex align-items-center justify-content-center">
                                   <img src="/kits-images/" alt="" />
@@ -289,13 +278,13 @@
                               <div class="pricelist__title2">Text</div>-->
                         
                               <ul class="pricelist__items">
-                                  <li class="pricelist__items__item">Reporting dat přes Power BI nebo Ubidots</li>
-                                  <li class="pricelist__items__item">Přístup k REST API a Callbackům pro vlastní integraci</li>
-                                  <li class="pricelist__items__item">Bezplatná výměna při poruše do 48 hodin</li>
-                                  <li class="pricelist__items__item">Pojištění proti krádeži a zničení</li>
+                                <li class="pricelist__items__item">{{ i18n "reporting_pbi" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "rest_api" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "replacement" | safeHTML }}</li>
+                                <li class="pricelist__items__item">{{ i18n "insurance" | safeHTML }}</li>
                               </ul>
                               <div class="pricelist__discount pt-30" style = "visibility: hidden;"><!-- -->0 </div>
-                              <div class="pricelist__price">od 990 CZK / měsíc</div>
+                              <div class="pricelist__price">{{ i18n "12_price" | safeHTML }}</div>
                               <!--<div class="pricelist__button">
                                 <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
                               </div>-->
@@ -318,14 +307,12 @@
               <div class="col">
                   <div class="row pt-30">
                     <div class="col-12 col-md-8 col-lg-6 mx-auto text-center">
-                      <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>Partneři programu lesnicky.report</span></div>
+                      <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>{{ i18n "partners" }}</span></div>
                  </div>
-                      <div class="col-12 mx-auto text-center">
-                          <!--<h2 class="text-center font-weight-black font-19 font-md-19 font-md-lnh24 font-font2 font-gray">Partneři programu vyrobni.report</h2>
-                          --><img src = "/_assets/images/partners/microsoft.svg" class = "w-25 pt-20 pb-30 mr-20" />
-                          <img src = "/_assets/images/partners/vodafone.svg" class = "w-25 pt-20 pb-30 ml-20" />
-                          <img src = "/_assets/images/partners/huawei.svg" class = "w-25 pt-20 pb-30 ml-20" />
-                      </div>
+                 <div class="col-12 mx-auto text-center">
+                  <img src = "/_assets/images/partners/microsoft.svg" class = "w-25 pt-20 pb-30 mr-20" />
+                  <img src = "/_assets/images/partners/vodafone.svg" class = "w-25 pt-20 pb-30 ml-20" />
+              </div>
                   </div>
               </div>
           </div>
@@ -342,16 +329,16 @@
               <p class = "font-white text-center pt-20">
               <strong>Alan Fabik</strong><br/>
               <a class = "font-white" href = "mailto:alan.fabik@hardwario.com">alan.fabik@hardwario.com</a><br/>
-              CEO a spoluzakladatel HARDWARIO</p>
+              {{ i18n "ceo" }} HARDWARIO</p>
           </div>
           <div class = "col-12 col-md-8 pt-30 pt-md-0 font-white">
-          <h3 class = "font-32 font-weight-bold pb-20">Nechte mi na vás kontakt, ozvu se</h3>
+          <h3 class = "font-32 font-weight-bold pb-20">{{ i18n "let_contact" }}</h3>
           <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
           <script>
             hbspt.forms.create({
             region: "na1",
             portalId: "5453210",
-            formId: "2380e347-ebe1-465b-9de7-5eefc171f86c"
+            formId: "{{ .Params.form_id }}"
           });
           </script>
       </div>
@@ -365,7 +352,7 @@
       <div class="container">
           <div class = "row">
             <div class = "col-12 text-center">
-              <h2 class="font-40 font-weight-black pt-20">Vaše nejčastější dotazy</h2>
+              <h2 class="font-40 font-weight-black pt-20">{{ i18n "faq" | safeHTML }}</h2>
             </div>
           </div>
           <div class="row">
@@ -373,30 +360,31 @@
                   <div class="collapsor pt-20">
                     
                     <div class="collapsor__item">
-                      <h2 class="collapsor__header collapsor__header--active">Jak probíhá program lesnicky.report?</h2>
+                      <h2 class="collapsor__header collapsor__header--active">{{ i18n "faq_1" | safeHTML }}</h2>
                       <div class="collapsor__body collapsor__body--active">
-                        Po odeslání formuláře vás Alan kontaktuje a domluvíte se na termínu společného telefonátu. Cílem je zjistit jakým způsobem můžeme váš les monitorovat a domluvit se na postupu nasazení. 
+                        {{ i18n "faq_1_desc" | safeHTML }}
                       </div>
                   </div>
 
                   <div class="collapsor__item">
-                      <h2 class="collapsor__header">Jak data z lesa přenášíte? Je to bezpečné?</h2>
+                      <h2 class="collapsor__header">{{ i18n "faq_2" | safeHTML }}</h2>
                       <div class="collapsor__body">
-                        Data přenášíme bezdrátovou sítí NB-IoT od společnosti Vodafone. Má skvělé pokrytí včetně nedostupných vzdálených lokalit. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený.
+                        {{ i18n "faq_2_desc" | safeHTML }}
                       </div>
                   </div>
                   <div class="collapsor__item">
-                    <h2 class="collapsor__header">Kde uvidíme data?</h2>
+                    <h2 class="collapsor__header">{{ i18n "faq_3" | safeHTML }}</h2>
                     <div class="collapsor__body">
-                      V programu lesnickyi.report pracujeme s výstupy v Power BI od Microsoftu. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace.
+                      {{ i18n "faq_3_desc" | safeHTML }}
                     </div>
                 </div>
-                  <div class="collapsor__item">
-                    <h2 class="collapsor__header">Je možné systém monitoringu také zakoupit, nebo je dostupný jen pronájem?</h2>
-                    <div class="collapsor__body">
-                      Ano, zařízení a senzory si můžete také jednorázově zakoupit. Pravidelné poplatky jsou pak pouze za konektivitu do internetu a volitelně za vizualizaci a reporting. Podrobnosti probereme na úvodní schůzce.
-                </div>
-            </div>
+                <div class="collapsor__item">
+                  <h2 class="collapsor__header">{{ i18n "faq_4" | safeHTML }}</h2>
+                  <div class="collapsor__body">
+                    {{ i18n "faq_4_desc" | safeHTML }}
+                  </div>
+              </div>
+
                   </div>
               </div>
           </div>
