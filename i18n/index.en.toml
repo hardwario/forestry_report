@@ -116,10 +116,10 @@ other = "CEO and Co-founder"
 other = "Leave me a contact, I'll get back to you"
 
 [faq]
-other = "Your Frequently Asked Questionsy"
+other = "Your Frequently Asked Questions"
 
 [faq_1]
-other = "How does the lesnicky.report programme work?"
+other = "How does the forestry.report programme work?"
 
 [faq_1_desc]
 other = "After submitting the form, Alan will contact you to arrange a time to call together. The aim is to find out how we can monitor your forest and agree on a deployment procedure."
@@ -128,7 +128,7 @@ other = "After submitting the form, Alan will contact you to arrange a time to c
 other = "How do you transfer data from the forest? Is it safe?"
 
 [faq_2_desc]
-other = "We transmit data over the wireless NB-IoT network from Vodafone. It has excellent coverage, including inaccessible remote locations. The network is completely independent of your internal network and the transmission is secure."
+other = "We transmit data over the wireless NB-IoT and LTE-M networks. They have excellent coverage, including inaccessible remote locations. The network is completely independent of your internal network and the transmission is secure."
 
 [faq_3]
 other = "Where will we see the data?"
@@ -146,7 +146,7 @@ other = "Yes, you can also buy the device and sensors as a one-off purchase. Reg
 other = "Back to homepage"
 
 [operated_by]
-other = "The forestry.report program is operated by"
+other = "The forestry.report is operated by"
 
 [vat_id] 
 other = "VAT ID"

@@ -128,7 +128,7 @@ other = "Po odeslání formuláře vás Alan kontaktuje a domluvíte se na term�
 other = "Jak data z lesa přenášíte? Je to bezpečné?"
 
 [faq_2_desc]
-other = "Data přenášíme bezdrátovou sítí NB-IoT od společnosti Vodafone. Má skvělé pokrytí včetně nedostupných vzdálených lokalit. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený."
+other = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M. Mají skvělé pokrytí včetně nedostupných vzdálených lokalit. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený."
 
 [faq_3]
 other = "Kde uvidíme data?"
@@ -146,7 +146,7 @@ other = "Ano, zařízení a senzory si můžete také jednorázově zakoupit. Pr
 other = "Zpět na úvodní stranu"
 
 [operated_by]
-other = "Program lesnicky.report provozuje"
+other = "lesnicky.report provozuje"
 
 [vat_id] 
 other = "DIČ"
