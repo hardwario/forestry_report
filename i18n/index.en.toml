@@ -112,6 +112,9 @@ other = "Partner of forestry.report"
 [ceo]
 other = "CEO and Co-founder"
 
+[cso]
+other = "Chief Sales Officer"
+
 [let_contact]
 other = "Leave me a contact, I'll get back to you"
 
@@ -122,7 +125,7 @@ other = "Your Frequently Asked Questions"
 other = "How does the forestry.report programme work?"
 
 [faq_1_desc]
-other = "After submitting the form, Alan will contact you to arrange a time to call together. The aim is to find out how we can monitor your forest and agree on a deployment procedure."
+other = "After submitting the form, Antonio will contact you to arrange a time to call together. The aim is to find out how we can monitor your forest and agree on a deployment procedure."
 
 [faq_2]
 other = "How do you transfer data from the forest? Is it safe?"
@@ -148,7 +151,7 @@ other = "Back to homepage"
 [operated_by]
 other = "The forestry.report is operated by"
 
-[vat_id] 
+[vat_id]
 other = "VAT ID"
 
 [company_id]

@@ -112,6 +112,9 @@ other = "Partner programu lesnicky.report"
 [ceo]
 other = "CEO a spoluzakladatel"
 
+[cso]
+other = "Chief Sales Officer"
+
 [let_contact]
 other = "Nechte mi na vás kontakt, ozvu se"
 
@@ -122,7 +125,7 @@ other = "Vaše nejčastější dotazy"
 other = "Jak probíhá program lesnicky.report?"
 
 [faq_1_desc]
-other = "Po odeslání formuláře vás Alan kontaktuje a domluvíte se na termínu společného telefonátu. Cílem je zjistit jakým způsobem můžeme váš les monitorovat a domluvit se na postupu nasazení."
+other = "Po odeslání formuláře vás Antonio kontaktuje a domluvíte se na termínu společného telefonátu. Cílem je zjistit jakým způsobem můžeme váš les monitorovat a domluvit se na postupu nasazení."
 
 [faq_2]
 other = "Jak data z lesa přenášíte? Je to bezpečné?"
@@ -148,7 +151,7 @@ other = "Zpět na úvodní stranu"
 [operated_by]
 other = "lesnicky.report provozuje"
 
-[vat_id] 
+[vat_id]
 other = "DIČ"
 
 [company_id]
